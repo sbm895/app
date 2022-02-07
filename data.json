@@ -1,0 +1,90 @@
+{
+    "schedules": [
+        {
+            "name": "Jesús García",
+            "image": "/docs/images/icon_female.png",
+            "days": {
+                "monday": [
+                    {
+                        "beginning": "07:30",
+                        "ending": "09:30"
+                    },
+                    {
+                        "beginning": "17:30",
+                        "ending": "18:30"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "beginning": "12:30",
+                        "ending": "14:30"
+                    },
+                    {
+                        "beginning": "17:30",
+                        "ending": "20:30"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sebastián Barreto",
+            "image": "/docs/images/icon_female.png",
+            "days": {
+                "monday": [
+                    {
+                        "beginning": "11:30",
+                        "ending": "13:30"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "beginning": "07:30",
+                        "ending": "09:30"
+                    },
+                    {
+                        "beginning": "11:30",
+                        "ending": "12:30"
+                    },
+                    {
+                        "beginning": "14:30",
+                        "ending": "6:30"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "beginning": "08:30",
+                        "ending": "10:30"
+                    },
+                    {
+                        "beginning": "11:30",
+                        "ending": "14:30"
+                    }
+                ],
+                "thursday":[
+                    {
+                        "beginning":"07:30",
+                        "ending":"09:30"
+                    },
+                    {
+                        "beginning":"12:30",
+                        "ending":"14:30"
+                    },
+                    {
+                        "beginning":"16:30",
+                        "ending":"18:30"
+                    }
+                ],
+                "friday":[
+                    {
+                        "beginning": "12:30",
+                        "ending": "13:30"
+                    },
+                    {
+                        "beginning":"18:30",
+                        "ending":"19:30"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+/*Literalmente todo*/
+body {
+    font-family:Roboto, sans-serif
+}
+
+/*Técnicamente todo*/
+.main-ctn{
+    width: 90vw;
+    margin: 20px auto 0 auto;
+    background-color: rgb(200, 226, 248);
+    padding:15px;
+    border-radius:10px;
+}
+
+/*Todas las unidades como conjunto (grid)*/
+.grid-ctn{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/*Propiedades de cada unidad (cards)*/
+.grid-ctn .card {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 1px 2px 6px 1px rgba(230,230,230,1);
+    -moz-box-shadow: 1px 2px 6px 1px rgba(230,230,230,1);
+    box-shadow: 1px 2px 6px 1px rgba(230,230,230,1);
+    padding: 15px;
+}
+
+/*Icono y Titulo de cada card (header)*/
+.grid-ctn .card .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Iconos de cada card*/
+.grid-ctn .card .header img {
+    width: 55px;
+    border-radius: 1000px;
+}
+
+/*Titulo de cada card*/
+.grid-ctn .card .header h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#0E132D;
+    margin: 0 0 0 20px;
+    font-size: 25px;
+} 
+
+/*Estado de cada card (Libre/Ocupado)*/
+.grid-ctn .card .state {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Indicador de estado*/
+.grid-ctn .card .state span {
+    display:block;
+    width: 10px;
+    height: 10px;
+    border-radius: 1000px;
+    margin-right: 10px;
+}
+
+.grid-ctn .card .state span.blue {
+    background-color: #54b3f3;
+}
+
+.grid-ctn .card .state span.red {
+    background-color: rgb(240, 79, 68);
+}
+ 
