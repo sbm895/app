@@ -1,11 +1,9 @@
 {
-    "schedules": [
-        {
+    "schedules": [{
             "name": "Jesús García",
-            "image": "/docs/images/icon_female.png",
+            "image": "/docs/images/guitar.jpg",
             "days": {
-                "monday": [
-                    {
+                "monday": [{
                         "beginning": "07:30",
                         "ending": "09:30"
                     },
@@ -14,8 +12,7 @@
                         "ending": "18:30"
                     }
                 ],
-                "tuesday": [
-                    {
+                "tuesday": [{
                         "beginning": "12:30",
                         "ending": "14:30"
                     },
@@ -23,21 +20,44 @@
                         "beginning": "17:30",
                         "ending": "20:30"
                     }
+                ],
+                "wednesday": [{
+                    "beginning": "14:30",
+                    "ending": "19:30"
+                }],
+                "thursday": [{
+                        "beginning": "10:30",
+                        "ending": "12:30"
+                    },
+                    {
+                        "beginning": "16:30",
+                        "ending": "18:30"
+                    }
+                ],
+                "friday": [{
+                        "beginning": "09:30",
+                        "ending": "11:30"
+                    },
+                    {
+                        "beginning": "12:30",
+                        "ending": "13:30"
+                    },
+                    {
+                        "beginning": "16:30",
+                        "ending": "18:3"
+                    }
                 ]
             }
         },
         {
             "name": "Sebastián Barreto",
-            "image": "/docs/images/icon_female.png",
+            "image": "/docs/images/s.jpg",
             "days": {
-                "monday": [
-                    {
-                        "beginning": "11:30",
-                        "ending": "13:30"
-                    }
-                ],
-                "tuesday": [
-                    {
+                "monday": [{
+                    "beginning": "11:30",
+                    "ending": "13:30"
+                }],
+                "tuesday": [{
                         "beginning": "07:30",
                         "ending": "09:30"
                     },
@@ -50,8 +70,7 @@
                         "ending": "6:30"
                     }
                 ],
-                "wednesday": [
-                    {
+                "wednesday": [{
                         "beginning": "08:30",
                         "ending": "10:30"
                     },
@@ -60,28 +79,294 @@
                         "ending": "14:30"
                     }
                 ],
-                "thursday":[
-                    {
-                        "beginning":"07:30",
-                        "ending":"09:30"
+                "thursday": [{
+                        "beginning": "07:30",
+                        "ending": "09:30"
                     },
                     {
-                        "beginning":"12:30",
-                        "ending":"14:30"
+                        "beginning": "12:30",
+                        "ending": "14:30"
                     },
                     {
-                        "beginning":"16:30",
-                        "ending":"18:30"
+                        "beginning": "16:30",
+                        "ending": "18:30"
                     }
                 ],
-                "friday":[
-                    {
+                "friday": [{
                         "beginning": "12:30",
                         "ending": "13:30"
                     },
                     {
-                        "beginning":"18:30",
-                        "ending":"19:30"
+                        "beginning": "18:30",
+                        "ending": "19:30"
+                    }
+                ]
+            }
+        },
+
+        {
+            "name": "Juan Oñoro",
+            "image": "/docs/images/onoro.jpg",
+            "days": {
+                "monday": [{
+                        "beginning": "07:30",
+                        "ending": "09:30"
+                    },
+                    {
+                        "beginning": "15:30",
+                        "ending": "16:30"
+                    }
+                ],
+                "tuesday": [{
+                        "beginning": "06:30",
+                        "ending": "8:30"
+                    },
+                    {
+                        "beginning": "10:30",
+                        "ending": "11:30"
+                    },
+                    {
+                        "beginning": "14:30",
+                        "ending": "16:30"
+                    }
+                ],
+                "wednesday": [{
+                        "beginning": "06:30",
+                        "ending": "7:30"
+                    },
+                    {
+                        "beginning": "10:30",
+                        "ending": "12:30"
+                    },
+                    {
+                        "beginning": "14:30",
+                        "ending": "20:30"
+                    }
+                ],
+                "thursday": [{
+                        "beginning": "08:30",
+                        "ending": "10:30"
+                    },
+                    {
+                        "beginning": "16:30",
+                        "ending": "17:30"
+                    }
+                ],
+                "friday": [{
+                        "beginning": "09:30",
+                        "ending": "10:30"
+                    },
+                    {
+                        "beginning": "11:30",
+                        "ending": "12:30"
+                    }
+                ]
+            }
+        },
+
+        {
+            "name": "Alexander Guerra",
+            "image": "/docs/images/alex.jpg",
+            "days": {
+                "monday": [{
+                    "beginning": "15:30",
+                    "ending": "18:30"
+                }],
+
+                "tuesday": [{
+                        "beginning": "11:30",
+                        "ending": "15:30"
+                    },
+                    {
+                        "beginning": "16:30",
+                        "ending": "20:30"
+                    }
+                ],
+
+                "wednesday": [{
+                    "beginning": "18:30",
+                    "ending": "19:30"
+                }],
+
+                "thursday": [{
+                        "beginning": "10:30",
+                        "ending": "14:30"
+                    },
+                    {
+                        "beginning": "15:30",
+                        "ending": "19:30"
+                    }
+                ],
+
+                "friday": [{
+                    "beginning": "12:30",
+                    "ending": "13:30"
+                }]
+            }
+        },
+
+        {
+            "name": "Jesús Gutierrez",
+            "image": "/docs/images/guti.jpg",
+            "days": {
+                "monday": [{
+                    "beginning": "07:30",
+                    "ending": "11:30"
+                }],
+
+                "tuesday": [{
+                        "beginning": "07:30",
+                        "ending": "09:30"
+                    },
+
+                    {
+                        "beginning": "12:30",
+                        "ending": "15:30"
+                    },
+
+                    {
+                        "beginning": "16:30",
+                        "ending": "20:30"
+                    }
+                ],
+
+                "wednesday": [{
+                        "beginning": "06:30",
+                        "ending": "07:30"
+                    },
+                    {
+                        "beginning": "10:30",
+                        "ending": "14:30"
+                    },
+                    {
+                        "beginning": "15:30",
+                        "ending": "14:30"
+                    }
+                ],
+
+                "thursday": [{
+                        "beginning": "06:30",
+                        "ending": "07:30"
+                    },
+                    {
+                        "beginning": "08:30",
+                        "ending": "10:30"
+                    },
+                    {
+                        "beginning": "12:30",
+                        "ending": "14:30"
+                    }
+                ],
+
+                "friday": [{
+                    "beginning": "10:30",
+                    "ending": "11:30"
+                }]
+            }
+        },
+
+        {
+            "name": "Nicolle Cantillo",
+            "image": "/docs/images/nicol.jpg",
+            "days": {
+                "monday": [{
+                        "beginning": "07:30",
+                        "ending": "9:30"
+                    },
+                    {
+                        "beginning": "13:30",
+                        "ending": "14:30"
+                    },
+                    {
+                        "beginning": "17:30",
+                        "ending": "19:30"
+                    }
+                ],
+                "tuesday": [{
+                    "beginning": "07:30",
+                    "ending": "9:30"
+                }],
+                "wednesday": [{
+                        "beginning": "11:30",
+                        "ending": "12:30"
+                    },
+                    {
+                        "beginning": "13:30",
+                        "ending": "15:30"
+                    },
+                    {
+                        "beginning": "18:30",
+                        "ending": "20:30"
+                    }
+                ],
+                "thursday": [{
+                        "beginning": "09:30",
+                        "ending": "10:30"
+                    },
+                    {
+                        "beginning": "13:30",
+                        "ending": "15:30"
+                    }
+                ],
+                "friday": [{
+                        "beginning": "07:30",
+                        "ending": "09:30"
+                    },
+                    {
+                        "beginning": "10:30",
+                        "ending": "12:30"
+                    },
+                    {
+                        "beginning": "18:30",
+                        "ending": "19:30"
+                    }
+                ]
+
+            }
+        },
+
+        {
+            "name": "Iván Rivas",
+            "image": "/docs/images/iban.png",
+            "days": {
+                "monday": [{
+                        "beginning": "15:30",
+                        "ending": "18:30"
+                    },
+                    {
+                        "beginning": "19:30",
+                        "ending": "20:30"
+                    }
+                ],
+                "tuesday": [{
+                        "beginning": "11:30",
+                        "ending": "14:30"
+                    },
+                    {
+                        "beginning": "16:30",
+                        "ending": "20:30"
+                    }
+                ],
+                "wednesday": [{
+                    "beginning": "18:30",
+                    "ending": "19:30"
+                }],
+                "thursday": [{
+                        "beginning": "10:30",
+                        "ending": "12:30"
+                    },
+                    {
+                        "beginning": "14:30",
+                        "ending": "19:30"
+                    }
+                ],
+                "friday": [{
+                        "beginning": "12:30",
+                        "ending": "13:30"
+                    },
+                    {
+                        "beginning": "18:30",
+                        "ending": "20:30"
                     }
                 ]
             }
